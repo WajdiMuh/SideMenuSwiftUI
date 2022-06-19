@@ -17,8 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-'A Basic Side Menu that takes an array of string and displays them in a side menu with a callback on item selection. The view takes a bindable boolean to view and hide the view and the callback returns a string of the chosen menu.'
+  s.description      = 'A Basic Side Menu that takes an array of string and displays them in a side menu with a callback on item selection. The view takes a bindable boolean to view and hide the view and the callback returns a string of the chosen menu.'
 
   s.homepage         = 'https://github.com/WajdiMuh/SideMenuSwiftUI'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -32,6 +31,10 @@ Pod::Spec.new do |s|
   s.platforms = {
       "ios":"15.0"
   }
+  
+  s.ios.framework  = 'SwiftUI'
+  
+  s.swift_version = '5.0'
 
   s.source_files = 'Classes/**/*'
   
