@@ -1,0 +1,6 @@
+framework module SideMenuSwiftUI {
+  umbrella header "SideMenuSwiftUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

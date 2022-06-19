@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SideMenuSwiftUI'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SideMenuSwiftUI.'
+  s.version          = '1.0.0'
+  s.summary          = 'A Basic Side Menu that takes an array of string and displays them in a side menu with a callback on item selection.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,22 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+'A Basic Side Menu that takes an array of string and displays them in a side menu with a callback on item selection. The view takes a bindable boolean to view and hide the view and the callback returns a string of the chosen menu.'
 
-  s.homepage         = 'https://github.com/wm-eisos/SideMenuSwiftUI'
+  s.homepage         = 'https://github.com/WajdiMuh/SideMenuSwiftUI'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wm-eisos' => 'w.elmuhtadi@gju.edu.jo' }
-  s.source           = { :git => 'https://github.com/wm-eisos/SideMenuSwiftUI.git', :tag => s.version.to_s }
+  s.author           = { 'WajdiMuh' => 'w.elmuhtadi@gju.edu.jo' }
+  s.source           = { :git => 'https://github.com/WajdiMuh/SideMenuSwiftUI.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '15.0'
+  
+  s.platforms = {
+      "ios":"15.0"
+  }
 
-  s.source_files = 'SideMenuSwiftUI/Classes/**/*'
+  s.source_files = 'Classes/**/*'
   
   # s.resource_bundles = {
   #   'SideMenuSwiftUI' => ['SideMenuSwiftUI/Assets/*.png']

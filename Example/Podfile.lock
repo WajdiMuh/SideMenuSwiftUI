@@ -1,0 +1,16 @@
+PODS:
+  - SideMenuSwiftUI (0.1.0)
+
+DEPENDENCIES:
+  - SideMenuSwiftUI (from `../`)
+
+EXTERNAL SOURCES:
+  SideMenuSwiftUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SideMenuSwiftUI: e15f6aa29550dacd372a4f8c15554f3b29d72dc8
+
+PODFILE CHECKSUM: 0a1259cda6c2a20a43293acf6f5aef7c485ca52d
+
+COCOAPODS: 1.11.3

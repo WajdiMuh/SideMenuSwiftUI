@@ -22,7 +22,7 @@ pod 'SideMenuSwiftUI'
 
 ## Author
 
-wm-eisos, w.elmuhtadi@gju.edu.jo
+WajdiMuh, w.elmuhtadi@gju.edu.jo
 
 ## License
 
