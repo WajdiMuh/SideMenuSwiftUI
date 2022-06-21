@@ -11,6 +11,12 @@ struct SideMenuSwiftUI: View {
     var menuitemselected: (String) -> Void = {_ in }
     var items: [String] = []
     @Binding var menuvisible:Bool
+    
+    init(items: [String], menuvisible: Binding<Bool>){
+        self.items = items
+        self._menuvisible = menuvisible
+    }
+    
     var body: some View {
         if(menuvisible){
             GeometryReader { geometry in

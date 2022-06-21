@@ -1,5 +1,4 @@
 import XCTest
-import SideMenuSwiftUI
 
 class Tests: XCTestCase {
     

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SideMenuSwiftUI'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A Basic Side Menu that takes an array of string and displays them in a side menu with a callback on item selection.'
 
 # This description is used to generate tags and improve search results.
